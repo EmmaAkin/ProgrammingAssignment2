@@ -1,7 +1,21 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+## Improve Matrix inverse computation time using Caching
+
+
+## Matrix inversion is usually a costly computation. Caching the inverse
+## helps reduce time of computation, especially when the inverse
+## would be used often.
+
+## Using the functions below to
+## Create a special object that store the matrix
+## Then cache the inverse
+
 ## Write a short comment describing this function
+
+## This function creates a special "matrix" object that can cache its inverse.
+
 
 makeCacheMatrix <- function(x = matrix()) {
             inv <- NULL
